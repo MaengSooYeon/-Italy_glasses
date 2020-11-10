@@ -3,72 +3,22 @@
 <head>
     <meta charset="utf-8">
     <title>HTML</title>
-    <style>
-
-        #jb {
-            width: 100%;
-            height: 50px;
-            margin: auto;
-        }
-
-        .h1 {
-            text-align: center;
-            font-size: 30;
-            color: black;
-            font-family: verdana;
-        }
-
-        .wrapper {
-            margin: auto;
-            width: 80%;
-        }
-
-        .button {
-            border: none;
-            box-sizing: border-box;
-            background-color: #807462;
-            text-align: center;
-            text-decoration: none;
-            display: block;
-            border-radius: 8px;
-            width: 60%;
-            height: 10%;
-            color: azure;
-            font-size: 20;
-            margin: auto;
-        }
-
-        div.button {
-            margin: auto;
-            width: 80%;
-        }
-    </style>
-    <script>
-        function jbFunc() {
-            document.getElementById('jb').value = '7';
-            var x;
-            x += 1;
-        }
-        function replace7to8(){
-            location.href="choose8.html"
-        }
-
-    </script>
 </head>
-
+<script src="./js/choose7.js"></script>
+<link rel="stylesheet" href="./css/choose.css">
 <body>
     <div class="wrapper">
-        <progress value="6" max="11" id="jb"></progress>
+        <progress value="6" max="10" id="jb"></progress>
     </div>
     <br><br><br>
     <div class="h1">
-        7.
+        7. 자고 일어났는데 안경을 잃어버렸다!!
     </div>
     <br><br><br><br>
     </div>
-    <input type="button" class="button" onclick="jbFunc(); replace7to8();" value="앞머리가 있어요" id="Button1"/>
+    <input type="button" class="button" onclick="jbFunc(); replace7to8();" value="안경 없어도 일상생활 가능해" id="Button1"/>
     <br><br><br>
-    <input type="button" class="button" onclick="jbFunc(); replace7to8();"  value="앞머리가 없어요" id="Button2"/>
+    <input type="button" class="button" onclick="jbFunc(); replace7to8();"  value="안경 없으면 아무것도 안 보여" id="Button2"/>
     </button>
 
 </body>

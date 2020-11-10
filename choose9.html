@@ -3,73 +3,24 @@
 <head>
     <meta charset="utf-8">
     <title>HTML</title>
-    <style>
 
-        #jb {
-            width: 100%;
-            height: 50px;
-            margin: auto;
-        }
-
-        .h1 {
-            text-align: center;
-            font-size: 30;
-            color: black;
-            font-family: verdana;
-        }
-
-        .wrapper {
-            margin: auto;
-            width: 80%;
-        }
-
-        .button {
-            border: none;
-            box-sizing: border-box;
-            background-color: #807462;
-            text-align: center;
-            text-decoration: none;
-            display: block;
-            border-radius: 8px;
-            width: 60%;
-            height: 10%;
-            color: azure;
-            font-size: 20;
-            margin: auto;
-        }
-
-        div.button {
-            margin: auto;
-            width: 80%;
-        }
-    </style>
-    <script>
-        function jbFunc() {
-            document.getElementById('jb').value = '9';
-            var x;
-            x += 1;
-        }
-        function replace9to10(){
-            location.href="choose10.html"
-        }
-
-    </script>
 </head>
-
+<script src="./js/choose9.js"></script>
+<link rel="stylesheet" href="./css/choose.css">
 <body>
     <div class="wrapper">
-        <progress value="8" max="11" id="jb"></progress>
+        <progress value="8" max="10" id="jb"></progress>
     </div>
     <br><br><br>
     <div class="h1">
-       9.
+       9. 눈썹이 많은가요? 적은가요?
     </div>
     <br><br><br><br>
     </div>
 
-    <input type="button" class="button" onclick="jbFunc(); replace9to10();" value="앞머리가 있어요" id="Button1"/>
+    <input type="button" class="button" onclick="jbFunc(); replace9to10();" value="난 눈썹부자!" id="Button1"/>
     <br><br><br>
-    <input type="button" class="button" onclick="jbFunc(); replace9to10();"  value="앞머리가 없어요" id="Button2"/>
+    <input type="button" class="button" onclick="jbFunc(); replace9to10();"  value="눈썹 없는 것도 매력이지!!" id="Button2"/>
     </button>
 
 </body>
