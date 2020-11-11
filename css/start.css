@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@800;900&display=swap');
+@import url('https://fonts.googleapis.com/earlyaccess/jejumyeongjo.css');
+@import url('https://fonts.googleapis.com/earlyaccess/kopubbatang.css');
+*{margin: 0; padding: 0;}
+
+body
+    {
+        position: absolute; left: 50%; top: 50%; 
+        transform: translate(-50%, -50%); text-align: center;
+        background: white;
+    }
+
+/* font */
+.hedder {font-family: 'Lobster', cursive;}
+.font {font-family: 'Noto Serif KR', serif;}
+
+.mainText
+    {   
+        font-family: 'Jeju Myeongjo', serif;
+        font-size: 40px;
+        font-style: bold;
+    }
+
+.tag
+    {
+        font-family: 'KoPub Batang', serif;
+        color:#be9664;
+        font-size: 22px;
+        font-style: bold;
+    }
+
+.subText
+    {
+        font-family: 'Jeju Myeongjo', serif;
+        font-size: 22px;
+        font-style: bold;
+    }
+.startBtn 
+    {
+        color:#000000;
+        background-color:#D9BE92;
+        font-size: 20px;
+        font-family: 'Martel', serif;
+        padding: 10px 100px;
+        border-radius: 10px;
+        text-align: center;
+        margin: 10px;
+        cursor: pointer;
+        transition: all 0.1s ease;
+        -webkit-transition: all 0.1s ease;
+        -moz-transition: all 0.1s ease;
+    }
+    
+.startBtn:hover 
+    {
+        color: #ffffff;
+        background-color: #D9BE92;
+        animation: startBtn 0.1s step-end 0 2;
+        -webkit-animation: startBtn 0.1s step-end 0 2;
+        -moz-animation: startBtn 0.1s step-end 0 2;
+        transition: all 0.2s ease 0.2s;
+        -webkit-transition: all 0.2s ease 0.2s;
+        -moz-transition: all 0.2s ease 0.2s;
+    }
+    
