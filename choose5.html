@@ -6,6 +6,7 @@
 
 </head>
 <script src="./js/choose5.js"></script>
+<script src="js/result.js" src=""></script>
 <link rel="stylesheet" href="./css/choose.css">
 <body>
     <div class="wrapper">
@@ -17,9 +18,11 @@
     </div>
     <br><br><br><br>
     </div>
-    <input type="button" class="button" onclick="jbFunc(); replace5to6();" value="유행 신경 안 써." id="Button1"/>
+    <input type="button" class="button" 
+            onclick="jbFunc(); replace5to6(); Choice(1, 0, 0, 0, t1, t2, 0)" value="유행 신경 안 써." id="Button1"/>
     <br><br><br>
-    <input type="button" class="button" onclick="jbFunc(); replace5to6();"  value="유행이니까 숏패딩 한번 입어볼까?" id="Button2"/>
+    <input type="button" class="button" 
+            onclick="jbFunc(); replace5to6(); Choice(0, 1, 0, 0, t1, t2, 1)" value="유행이니까 숏패딩 한번 입어볼까?" id="Button2"/>
     </button>
 
 </body>
