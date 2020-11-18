@@ -7,9 +7,6 @@
     margin-top: 1%;
     background-color: white;
 }
-<<<<<<< HEAD
-.font {font-family: 'Noto Serif KR', serif;}
-=======
 progress[value]::-webkit-progress-bar
     { 
         background-color:#ffffff; 
@@ -18,12 +15,12 @@ progress[value]::-webkit-progress-bar
 
 progress[value]::-webkit-progress-value
     { 
-        background-color:#D9BE92; 
+        background-color:#7c613f;
         border-radius: 30px;
     }
->>>>>>> 592311d6b726e2376692d0df55cd4a1b303e6705
 
 .h1 {
+    color:#4d3d2a;
     text-align: center;
     font-family: 'Jeju Myeongjo', serif;
     font-size: 40px;
@@ -34,12 +31,21 @@ progress[value]::-webkit-progress-value
     margin: auto;
     width: 80%;
 }
+.subText
+    {
+        color:#7c613f;
+        text-align: center;
+        font-family: 'Jeju Myeongjo', serif;
+        font-size: 22px;
+        font-style: bold;
+        margin-top: 30px;
+    }
 
 .button {
     border: none;
     box-sizing: border-box;
-    color:#000000;
-    background-color:#D9BE92;
+    color:#7c613f;
+    background-color:#e9d9c2;
     font-family: 'KoPub Batang', serif;
     font-size: 22px;
     font-style: bold;
@@ -51,15 +57,15 @@ progress[value]::-webkit-progress-value
     text-align: center;
     text-decoration: none;
     display: block;
-    border-radius: 8px;
+    border-radius: 10px;
     width: 40%;
     height: 10%;
     margin: auto;
     }
     .button:hover 
         {
-        color: #ffffff;
-        background-color: #D9BE92;
+        color:#ffffff;
+        background-color:#e9d9c2;
         animation: button 0.1s step-end 0 2;
         -webkit-animation: button 0.1s step-end 0 2;
         text-align: center;
@@ -68,7 +74,6 @@ progress[value]::-webkit-progress-value
         border-radius: 8px;
         width: 40%;
         height: 10%;
-        color: azure;
         font-size: 20px;
         margin: auto;
     }
