@@ -7,7 +7,6 @@ body
     {
         text-align: center;
         background: white;
-        margin-top: 5%;
     }
 
 /* font */
@@ -15,6 +14,7 @@ body
 .font { font-family: 'Noto Serif KR', serif; }
 
 .mainText {   
+    margin-top: 4%;
     font-family: 'Jeju Myeongjo', serif;
     font-size: 40px;
     font-style: bold;
