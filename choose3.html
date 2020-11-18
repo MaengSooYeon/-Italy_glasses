@@ -6,6 +6,7 @@
 
 </head>
 <script src="./js/choose3.js"></script>
+<script src="js/result.js" src=""></script>
 <link rel="stylesheet" href="./css/choose.css">
 <body>
     <div class="wrapper">
@@ -18,13 +19,13 @@
     <br><br><br><br>
     </div>
 
-    <input type="button" class="button" onclick="jbFunc(); replace3to4();" value="큰편이지!" id="Button1"/>
+    <input type="button" class="button" 
+            onclick="jbFunc(); replace3to4(); Choice(0, 0, 0, 0, 0, 3, 0)" value="큰편이지!" id="Button1"/>
     <br><br><br>
-    <input type="button" class="button" onclick="jbFunc(); replace3to4();"  value="음 보통인 것 같아" id="Button2"/>
+    <input type="button" class="button" 
+            onclick="jbFunc(); replace3to4(); Choice(0, 0, 0, 0, 3, 3, 0)"  value="음 보통인 것 같아" id="Button2"/>
     <br><br><br>
-    <input type="button" class="button" onclick="jbFunc(); replace3to4();"  value="조금 작은가??" id="Button2"/>
-    </button>
-
+    <input type="button" class="button" 
+            onclick="jbFunc(); replace3to4(); Choice(0, 0, 0, 0, 3, 0, 0)"  value="조금 작은가??" id="Button2"/>
 </body>
-
 </html>

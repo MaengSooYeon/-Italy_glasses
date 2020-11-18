@@ -5,6 +5,7 @@
     <title>HTML</title>
 </head>
 <script src="./js/choose11.js"></script>
+<script src="js/result.js" src=""></script>
 <link rel="stylesheet" href="./css/choose.css">
 <body>
     <div class="wrapper">
@@ -17,13 +18,13 @@
     <br><br><br><br>
     </div>
 
-    <input type="button" class="button" onclick="jbFunc()" value="학생" id="Button1"/>
+    <input type="button" class="button" 
+            onclick="jbFunc(); replace11toLoading(); Choice(3, 3, 3, 3, 3, 3, 3)" value="학생" id="Button1"/>
     <br><br><br>
-    <input type="button" class="button" onclick="jbFunc()"  value="직장인" id="Button2"/>
+    <input type="button" class="button" 
+            onclick="jbFunc(); replace11toLoading(); Choice(2, 0, 3, 2, 2, 2, 0)" value="직장인" id="Button2"/>
     <br><br><br>
-    <input type="button" class="button" onclick="jbFunc()"  value="기타 등등" id="Button2"/>
-    </button>
-
+    <input type="button" class="button" 
+            onclick="jbFunc(); replace11toLoading(); Choice(2, 2, 2, 2, 2, 2, 3)" value="기타 등등" id="Button2"/>
 </body>
-
 </html>

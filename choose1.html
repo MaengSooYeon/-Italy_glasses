@@ -5,6 +5,7 @@
     <title>HTML</title>    
 </head>
 <script src="./js/choose1.js"></script>
+<script src="js/result.js" src=""></script>
 <link rel="stylesheet" href="./css/choose.css">
 <body>
     <div class="wrapper">
@@ -12,17 +13,15 @@
     </div>
     <br><br><br>
     <div class="h1">
-        1. 앞머리는 나의 ? 
+        1. 앞머리는 나의? 
     </div>
     <br><br><br><br>
     </div>
-    <!--<button class="button" onclick="jbFunc()" onclick="replace2_1()" id="button1">앞머리 있옹</button>
-    -->
-    <input type="button" class="button" onclick="jbFunc(); replace1to2();" value="신체의 일부" id="Button1"/>
+    <input type="button" class="button" 
+            onclick="jbFunc(); replace1to2(); Choice(0, 0, 0, 0, 0, 3, 2)" value="신체의 일부" id="Button1"/>
     <br><br><br>
-    <input type="button" class="button" onclick="jbFunc(); replace1to2();"  value="앞머리 없는 게 짱이지" id="Button2"/>
-    </button>
-
+    <input type="button" class="button" 
+            onclick="jbFunc(); replace1to2(); Choice(0, 0, 0, 0, 3, 0, 2)" value="앞머리 없는 게 짱이지" id="Button2"/>
 </body>
 
 </html>

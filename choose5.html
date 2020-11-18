@@ -6,6 +6,7 @@
 
 </head>
 <script src="./js/choose5.js"></script>
+<script src="js/result.js" src=""></script>
 <link rel="stylesheet" href="./css/choose.css">
 <body>
     <div class="wrapper">
@@ -13,15 +14,14 @@
     </div>
     <br><br><br>
     <div class="h1">
-        5.올해는 숏패딩이 유행이라던데 
+        5. 올해는 숏패딩이 유행이라던데 
     </div>
     <br><br><br><br>
     </div>
-    <input type="button" class="button" onclick="jbFunc(); replace5to6();" value="유행 신경 안 써." id="Button1"/>
+    <input type="button" class="button" 
+            onclick="jbFunc(); replace5to6(); Choice(3, 0, 0, 0, 0, 0, 0)" value="유행 신경 안 써." id="Button1"/>
     <br><br><br>
-    <input type="button" class="button" onclick="jbFunc(); replace5to6();"  value="유행이니까 숏패딩 한번 입어볼까?" id="Button2"/>
-    </button>
-
+    <input type="button" class="button" 
+            onclick="jbFunc(); replace5to6(); Choice(0, 3, 0, 0, 3, 3, 3)" value="유행이니까 숏패딩 한번 입어볼까?" id="Button2"/>
 </body>
-
 </html>
