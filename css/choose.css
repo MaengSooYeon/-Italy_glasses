@@ -3,10 +3,25 @@
 @import url('https://fonts.googleapis.com/earlyaccess/kopubbatang.css');
 #jb {
     width: 100%;
-    height: 50px;
-    margin: auto;
+    height: 40px;
+    margin-top: 1%;
+    background-color: white;
 }
+<<<<<<< HEAD
 .font {font-family: 'Noto Serif KR', serif;}
+=======
+progress[value]::-webkit-progress-bar
+    { 
+        background-color:#ffffff; 
+        border-radius: 30px;
+    }
+
+progress[value]::-webkit-progress-value
+    { 
+        background-color:#D9BE92; 
+        border-radius: 30px;
+    }
+>>>>>>> 592311d6b726e2376692d0df55cd4a1b303e6705
 
 .h1 {
     text-align: center;
