@@ -3,6 +3,6 @@ function jbFunc() {
     var x;
     x += 1;
 }
-function replace11toLoading(){
-    location.href="result_loading.html"
-}
+// function replace11toLoading(){
+//     location.href="result_loading.html"
+// }
