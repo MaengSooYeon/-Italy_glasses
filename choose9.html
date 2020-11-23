@@ -9,19 +9,22 @@
 <script src="js/result.js" src=""></script>
 <link rel="stylesheet" href="./css/choose.css">
 <body>
-    <div class="wrapper">
-        <progress value="8" max="10" id="jb"></progress>
-    </div>
-    <br><br><br>
-    <div class="h1">
-       9. 눈썹이 많은가요? 적은가요?
-    </div>
-    <br><br><br><br>
-    </div>
-    <input type="button" class="button" 
-            onclick="jbFunc(); replace9to10(); Choice(0, 3, 3, 0, 0, 3, 2)" value="난 눈썹부자!" id="Button1"/>
-    <br><br><br>
-    <input type="button" class="button" 
-            onclick="jbFunc(); replace9to10(); Choice(3, 0, 0, 3, 3, 0, 2)" value="눈썹 없는 것도 매력이지!!" id="Button2"/>
+    <div id="choose9">
+        <div class="subText">9/11</div>
+        <div class="wrapper">
+            <progress value="9" max="11" id="jb"></progress>
+        </div>
+        <br><br><br>
+        <div class="h1">
+        9. 눈썹이 많은가요? 적은가요?
+        </div>
+        <br><br><br><br>
+        </div>
+        <input type="button" class="button" 
+                onclick="jbFunc(); replace9to10(); Choice(32, 0)" value="난 눈썹부자!" id="Button1"/>
+        <br><br><br>
+        <input type="button" class="button" 
+                onclick="jbFunc(); replace9to10(); Choice(30, 0)" value="눈썹 없는 것도 매력이지!!" id="Button2"/>
+    </div>            
 </body>
 </html>

@@ -8,20 +8,23 @@
 <script src="js/result.js" src=""></script>
 <link rel="stylesheet" href="./css/choose.css">
 <body>
-    <div class="wrapper">
-        <progress value="5" max="10" id="jb"></progress>
-    </div>
-    <br><br><br>
-    <div class="h1">
-        6. 2가지 옷 중 한가지를 골라야 한다면 
-    </div>
-    <br><br><br><br>
-    </div>
+    <div id="choose6">
+        <div class="subText">6/11</div>
+        <div class="wrapper">
+            <progress value="6" max="11" id="jb"></progress>
+        </div>
+        <br><br><br>
+        <div class="h1">
+            6. 2가지 옷 중 한가지를 골라야 한다면 
+        </div>
+        <br><br><br><br>
+        </div>
 
-    <input type="button" class="button" 
-            onclick="jbFunc(); replace6to7(); Choice(g1, g2, g3, g4, t1, t2, 0)" value="깔끔한 오피스룩" id="Button1"/>
-    <br><br><br>
-    <input type="button" class="button" 
-            onclick="jbFunc(); replace6to7(); Choice(g1, g2, g3, g4, t1, t2, 1)" value="올해 유행하는 뉴트로 패션 " id="Button2"/>
+        <input type="button" class="button" 
+                onclick="jbFunc(); replace6to7(); Choice(98, 0)" value="깔끔한 오피스룩" id="Button1"/>
+        <br><br><br>
+        <input type="button" class="button" 
+                onclick="jbFunc(); replace6to7(); Choice(99, 0)" value="올해 유행하는 뉴트로 패션 " id="Button2"/>
+    </div>
 </body>
 </html>

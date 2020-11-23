@@ -3,11 +3,25 @@
         <meta charset="UTF-8">
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwzALxUPNbatRBj3Xi1Uhp0fFzwWNBkE&callback=initMap&libraries=&v=weekly"
         defer></script>
-        <script src="js/result.js" src=""></script>
-        <link rel="stylesheet" href="css/result.css">
+        <script src="js/result.js"></script>                                <!-- 기본 js 파일 -->
+        <link rel="stylesheet" href="css/result.css">                       <!-- 기본 css 파일-->
+        <link rel="stylesheet" type="text/css"  href="css/moreResult.css">  <!-- 디자인 css 파일-->
         <title>결과</title>
     </head>
     <body>
+        <!-- menu bar -->
+        <div id="header">ITALY GLASSES</div>
+        <div id="nav_menu">
+            <ul>
+                <li><a href="moreResult1.html">두꺼운 뿔테안경</a></li>
+                <li><a href="moreResult2.html">얇은 뿔테안경</a></li>
+                <li><a href="moreResult3.html">두꺼운 동그란 안경</a></li>
+                <li><a href="moreResult4.html">얇은 동그란 안경</a></li>
+                <li><a href="moreResult5.html">위는 각지고 아래는 둥근 안경</a></li>
+                <li><a href="moreResult6.html">투명 뿔테안경</a></li>
+            </ul>
+        </div>
+
         <div class="mainText">당신에게 어울리는 안경은...<br><b>"두꺼운 뿔테안경"</b></div><br><br>
         <img src="image/result1.PNG"> <br><br><br>
         <div class="subText">
@@ -24,10 +38,10 @@
             블랙 색상 외에도 다양한 색상이 준비되어있으니 다양한 분위기를 연출해 보세요~ <br><br>
         
             <Button class="again" onclick="again()">다시하기</Button> &nbsp;
-            <Button class="another" onclick="another()">다른 결과도 보고싶어요!</Button> <br><br><br>
+            <br><br><br>
         </div>
+
         <div class="mainText">이 안경 사고싶다면?</div><br>
-    
         <div id="map"></div>
         <div class="info">
             Info. 이태리안경원(ITALY 1980)<br><br>

@@ -8,23 +8,25 @@
 <script src="js/result.js" src=""></script>
 <link rel="stylesheet" href="./css/choose.css">
 <body>
-    <div class="wrapper">
-        <progress value="11" max="10" id="jb"></progress>
+    <div id="choose11">
+        <div class="subText">11/11</div>
+        <div class="wrapper">
+            <progress value="11" max="11" id="jb"></progress>
+        </div>
+        <br><br><br>
+        <div class="h1">
+            11. 당신의 직업은???
+        </div>
+        <br><br><br><br>
+        </div>
+        <input type="button" class="button" 
+                onclick="jbFunc(); Choice(106, 1)" value="학생" id="Button1"/>
+        <br><br><br>
+        <input type="button" class="button" 
+                onclick="jbFunc(); Choice(106, 1)" value="직장인" id="Button2"/>
+        <br><br><br>
+        <input type="button" class="button" 
+                onclick="jbFunc(); Choice(107, 1)" value="기타 등등" id="Button2"/>
     </div>
-    <br><br><br>
-    <div class="h1">
-        11. 당신의 직업은???
-    </div>
-    <br><br><br><br>
-    </div>
-
-    <input type="button" class="button" 
-            onclick="jbFunc(); replace11toLoading(); Choice(3, 3, 3, 3, 3, 3, 3)" value="학생" id="Button1"/>
-    <br><br><br>
-    <input type="button" class="button" 
-            onclick="jbFunc(); replace11toLoading(); Choice(2, 0, 3, 2, 2, 2, 0)" value="직장인" id="Button2"/>
-    <br><br><br>
-    <input type="button" class="button" 
-            onclick="jbFunc(); replace11toLoading(); Choice(2, 2, 2, 2, 2, 2, 3)" value="기타 등등" id="Button2"/>
 </body>
 </html>

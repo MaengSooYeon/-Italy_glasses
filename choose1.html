@@ -8,20 +8,22 @@
 <script src="js/result.js" src=""></script>
 <link rel="stylesheet" href="./css/choose.css">
 <body>
-    <div class="wrapper">
-        <progress value="0" max="10" id="jb"></progress>
+    <div id="choose1">
+        <div class="subText">1/11</div>
+        <div class="wrapper">
+            <progress value="1" max="11" id="jb"></progress>
+        </div>
+        <br><br><br>
+        <div class="h1">
+            1. 앞머리는 나의?
+        </div>
+        <br><br><br><br>
+        </div>
+        <input type="button" class="button" 
+                onclick="jbFunc(); replace1to2(); Choice(1, 0)" value="신체의 일부" id="Button1"/>
+        <br><br><br>
+        <input type="button" class="button" 
+                onclick="jbFunc(); replace1to2(); Choice(0, 0)" value="앞머리 없는 게 짱이지" id="Button2"/>
     </div>
-    <br><br><br>
-    <div class="h1">
-        1. 앞머리는 나의? 
-    </div>
-    <br><br><br><br>
-    </div>
-    <input type="button" class="button" 
-            onclick="jbFunc(); replace1to2(); Choice(0, 0, 0, 0, 0, 3, 2)" value="신체의 일부" id="Button1"/>
-    <br><br><br>
-    <input type="button" class="button" 
-            onclick="jbFunc(); replace1to2(); Choice(0, 0, 0, 0, 3, 0, 2)" value="앞머리 없는 게 짱이지" id="Button2"/>
 </body>
-
 </html>

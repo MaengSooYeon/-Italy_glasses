@@ -1,18 +1,11 @@
-var horn=0;         //뿔테
-var round=0;        //동글이
-var half=0;         //위는 각진 밑은 둥근
-var square=0;       //사각
-var limpidity=0;    //투명
-
-var thick=0;        //두꺼운 두께
-var thin=0;         //얇은 두께
-
+var result=0;
+var end=0;
 function again() {
     location.href="start.html"
 }
 
 function another() {
-    location.href=""
+    location.href="moreResult1.html"
 }
 
 function initMap() {
@@ -29,30 +22,25 @@ function initMap() {
     });
 }
 
-function Choice(g1, g2, g3, g4, t1, t2, f){
-    horn += g1;
-    round += g2;
-    half += g3;
-    square += g4;
-    limpidity += f;
-
-    thick += t1;
-    thin += t2;
-
-    // if문 수정필요(비교)
-    if(horn && thick>thin){
-        $(location).attr('href','choose1.html');
-    }else if(horn && thick<thin){
-        $(location).attr('href','choose2.html');
-    }else if(round && thick>thin){
-        $(location).attr('href','choose3.html');
-    }else if(round && thick<thin){
-        $(location).attr('href','choose5.html');
-    }else if(half){
-        $(location).attr('href','choose6.html');
-    }else if(half && thick>thin){
-        $(location).attr('href','choose7.html');
-    }else if(horn && limpidity){
-        $(location).attr('href','choose9.html');
+function Choice(n, end){
+    result+=n;
+    
+    if((result==571||result==575)&&end==1){
+        location.href='result1.html';
+    }
+    if((result==577||result==579)&&end==1){
+        location.href='result2.html';
+    }
+    if((result==576||result==580)&&end==1){
+        location.href='result3.html';
+    }
+    if((result==581||result==585||result==587||result==591)&&end==1){
+        location.href='result5.html';
+    }
+    if(((result==580)+8||result==584)&&end==1){
+        location.href='result6.html';
+    }
+    if(((result==587)+20||result==589||result==590||result==592||result==593||result==595)&&end==1){
+        location.href='result9.html';
     }
 }

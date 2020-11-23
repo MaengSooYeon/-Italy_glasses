@@ -3,6 +3,8 @@ function jbFunc() {
     var x;
     x += 1;
 }
-function replace11toLoading(){
-    location.href="result_loading.html"
-}
+// 여ㄱㅣ서 show/hide 처리
+
+// function replace11toLoading(){
+//     location.href="result_loading.html"
+// }
