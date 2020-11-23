@@ -1,4 +1,4 @@
-function jbFunc() {
+function jbFunc9() {
     document.getElementById('jb').value = '9';
     var x;
     x += 1;
