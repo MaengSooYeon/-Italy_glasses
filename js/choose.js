@@ -39,9 +39,9 @@ function jbFunc8() {
     x += 1;
 }
 function jbFunc9() {
-        document.getElementById('jb9').value = '9';
-        var x;
-        x += 1;
+    document.getElementById('jb9').value = '9';
+    var x;
+    x += 1;
 
 }
 function jbFunc10() {
