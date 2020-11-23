@@ -1,33 +1,132 @@
 function jbFunc1() {
-    
+    $('#choose2').show();
+    $('#choose1').hide(); 
+    $('#choose3').hide(); 
+    $('#choose4').hide(); 
+    $('#choose5').hide(); 
+    $('#choose6').hide(); 
+    $('#choose7').hide(); 
+    $('#choose8').hide(); 
+    $('#choose9').hide(); 
+    $('#choose10').hide(); 
+    $('#choose11').hide(); 
 }
 function jbFunc2() {
-    
+    $('#choose3').show();
+    $('#choose1').hide(); 
+    $('#choose2').hide(); 
+    $('#choose4').hide(); 
+    $('#choose5').hide(); 
+    $('#choose6').hide(); 
+    $('#choose7').hide(); 
+    $('#choose8').hide(); 
+    $('#choose9').hide(); 
+    $('#choose10').hide(); 
+    $('#choose11').hide(); 
 }
 function jbFunc3() {
-    
+    $('#choose4').show();
+    $('#choose1').hide(); 
+    $('#choose2').hide(); 
+    $('#choose3').hide(); 
+    $('#choose5').hide(); 
+    $('#choose6').hide(); 
+    $('#choose7').hide(); 
+    $('#choose8').hide(); 
+    $('#choose9').hide(); 
+    $('#choose10').hide(); 
+    $('#choose11').hide(); 
 }
 function jbFunc4() {
-    
+    $('#choose5').show();
+    $('#choose1').hide(); 
+    $('#choose2').hide(); 
+    $('#choose3').hide(); 
+    $('#choose4').hide(); 
+    $('#choose6').hide(); 
+    $('#choose7').hide(); 
+    $('#choose8').hide(); 
+    $('#choose9').hide(); 
+    $('#choose10').hide(); 
+    $('#choose11').hide(); 
 }
 function jbFunc5() {
-    
+    $('#choose6').show();
+    $('#choose1').hide(); 
+    $('#choose2').hide(); 
+    $('#choose3').hide(); 
+    $('#choose4').hide(); 
+    $('#choose5').hide(); 
+    $('#choose7').hide(); 
+    $('#choose8').hide(); 
+    $('#choose9').hide(); 
+    $('#choose10').hide(); 
+    $('#choose11').hide(); 
 }
 function jbFunc6() {
-    
+    $('#choose7').show();
+    $('#choose1').hide(); 
+    $('#choose2').hide(); 
+    $('#choose3').hide(); 
+    $('#choose4').hide(); 
+    $('#choose5').hide(); 
+    $('#choose6').hide(); 
+    $('#choose8').hide(); 
+    $('#choose9').hide(); 
+    $('#choose10').hide(); 
+    $('#choose11').hide(); 
 }
 function jbFunc7() {
-    
+    $('#choose8').show();
+    $('#choose1').hide(); 
+    $('#choose2').hide(); 
+    $('#choose3').hide(); 
+    $('#choose4').hide(); 
+    $('#choose5').hide(); 
+    $('#choose6').hide(); 
+    $('#choose7').hide(); 
+    $('#choose9').hide(); 
+    $('#choose10').hide(); 
+    $('#choose11').hide(); 
 }
 function jbFunc8() {
-    
+    $('#choose9').show();
+    $('#choose1').hide(); 
+    $('#choose2').hide(); 
+    $('#choose3').hide(); 
+    $('#choose4').hide(); 
+    $('#choose5').hide(); 
+    $('#choose6').hide(); 
+    $('#choose7').hide(); 
+    $('#choose8').hide(); 
+    $('#choose10').hide(); 
+    $('#choose11').hide(); 
 }
 function jbFunc9() {
-    
-
+    $('#choose10').show();
+    $('#choose1').hide(); 
+    $('#choose2').hide(); 
+    $('#choose3').hide(); 
+    $('#choose4').hide(); 
+    $('#choose5').hide(); 
+    $('#choose6').hide(); 
+    $('#choose7').hide(); 
+    $('#choose8').hide(); 
+    $('#choose9').hide(); 
+    $('#choose11').hide(); 
 }
 function jbFunc10() {
-    
+    $('#choose11').show();
+    $('#choose1').hide(); 
+    $('#choose2').hide(); 
+    $('#choose3').hide(); 
+    $('#choose4').hide(); 
+    $('#choose5').hide(); 
+    $('#choose6').hide(); 
+    $('#choose7').hide(); 
+    $('#choose8').hide(); 
+    $('#choose9').hide(); 
+    $('#choose10').hide(); 
 }
 function jbFunc11() {
     
