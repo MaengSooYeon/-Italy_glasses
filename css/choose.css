@@ -130,7 +130,7 @@ progress[value]::-webkit-progress-value
     display: block;
     border-radius: 10px;
     width: 40%;
-    height: 10%;
+    height: 8%;
     margin: auto;
     }
     .button:hover 
@@ -144,7 +144,7 @@ progress[value]::-webkit-progress-value
         display: block;
         border-radius: 8px;
         width: 40%;
-        height: 10%;
+        height: 8%;
         font-size: 20px;
         margin: auto;
     }
