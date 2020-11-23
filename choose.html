@@ -2,6 +2,7 @@
     <head>
         <meta charset="utf-8">
         <title>선택~</title>
+        <script src="js/choose.js" src=""></script>
         <script src="js/result.js" src=""></script>
         <link rel="stylesheet" href="./css/choose.css">
     </head>
@@ -18,10 +19,10 @@
             <br><br><br><br>
             </div>
             <input type="button" class="button" 
-                    onclick="Choice(1, 0);" value="신체의 일부" id="Button1"/>
+                    onclick="jbFunc1(); Choice(1, 0);" value="신체의 일부" id="Button1"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="Choice(0, 0);" value="앞머리 없는 게 짱이지" id="Button2"/>
+                    onclick="jbFunc1(); Choice(0, 0);" value="앞머리 없는 게 짱이지" id="Button2"/>
         </div>
         <div id="choose2">
             <div class="subText">2/11</div>
@@ -35,13 +36,13 @@
             <br><br><br><br>
             </div>
             <input type="button" class="button" 
-                    onclick="Choice(14, 0)" value="각진st" id="Button1"/>
+                    onclick="jbFunc2(); Choice(14, 0)" value="각진st" id="Button1"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="Choice(12, 0)" value="동글동글 완두콩st" id="Button2"/>
+                    onclick="jbFunc2(); Choice(12, 0)" value="동글동글 완두콩st" id="Button2"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="Choice(10, 0)" value="계란st" id="Button3"/>
+                    onclick="jbFunc2(); Choice(10, 0)" value="계란st" id="Button3"/>
         </div>      
         <div id="choose3">
             <div class="subText">3/11</div>
@@ -56,13 +57,13 @@
             </div>
     
             <input type="button" class="button" 
-                    onclick="Choice(27, 0)" value="큰편이지!" id="Button1"/>
+                    onclick="jbFunc3(); Choice(27, 0)" value="큰편이지!" id="Button1"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="Choice(21, 0)"  value="음 보통인 것 같아" id="Button2"/>
+                    onclick="jbFunc3(); Choice(21, 0)"  value="음 보통인 것 같아" id="Button2"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="Choice(24)"  value="조금 작은가??" id="Button2"/>
+                    onclick="jbFunc3(); Choice(24)"  value="조금 작은가??" id="Button2"/>
         </div>
         <div id="choose4">
             <div class="subText">4/11</div>
@@ -76,10 +77,10 @@
             <br><br><br><br>
             </div>
             <input type="button" class="button" 
-                    onclick="Choice(61, 0)" value="당연히 친구 만나서 놀러가야지!" id="Button1"/>
+                    onclick="jbFunc4(); Choice(61, 0)" value="당연히 친구 만나서 놀러가야지!" id="Button1"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="Choice(64, 0)" value="집이 최고! 집에서 넷플릭스 봐야지" id="Button2"/>
+                    onclick="jbFunc4(); Choice(64, 0)" value="집이 최고! 집에서 넷플릭스 봐야지" id="Button2"/>
         </div>
         <div id="choose5">
             <div class="subText">5/11</div>
@@ -93,10 +94,10 @@
             <br><br><br><br>
             </div>
             <input type="button" class="button" 
-                    onclick="Choice(70, 0)" value="유행 신경 안 써." id="Button1"/>
+                    onclick="jbFunc5(); Choice(70, 0)" value="유행 신경 안 써." id="Button1"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="Choice(72, 0)" value="유행이니까 숏패딩 한번 입어볼까?" id="Button2"/>
+                    onclick="jbFunc5(); Choice(72, 0)" value="유행이니까 숏패딩 한번 입어볼까?" id="Button2"/>
         </div>
         <div id="choose6">
             <div class="subText">6/11</div>
@@ -111,10 +112,10 @@
             </div>
     
             <input type="button" class="button" 
-                    onclick="Choice(98, 0)" value="깔끔한 오피스룩" id="Button1"/>
+                    onclick="jbFunc6(); Choice(98, 0)" value="깔끔한 오피스룩" id="Button1"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="Choice(99, 0)" value="올해 유행하는 뉴트로 패션 " id="Button2"/>
+                    onclick="jbFunc6(); Choice(99, 0)" value="올해 유행하는 뉴트로 패션 " id="Button2"/>
         </div>
         <div id="choose7">
             <div class="subText">7/11</div>
@@ -128,10 +129,10 @@
             <br><br><br><br>
             </div>
             <input type="button" class="button" 
-                    onclick="Choice(84, 0)" value="안경 없어도 일상생활 가능해" id="Button1"/>
+                    onclick="jbFunc7(); Choice(84, 0)" value="안경 없어도 일상생활 가능해" id="Button1"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="Choice(81, 0)" value="안경 없으면 아무것도 안 보여" id="Button2"/>
+                    onclick="jbFunc7(); Choice(81, 0)" value="안경 없으면 아무것도 안 보여" id="Button2"/>
         </div>
         <div id="choose8">
             <div class="subText">8/11</div>
@@ -145,10 +146,10 @@
             <br><br><br><br>
             </div>
             <input type="button" class="button" 
-                    onclick="Choice(50, 0)" value="-4.0 보다 낮아요." id="Button1"/>
+                    onclick="jbFunc8(); Choice(50, 0)" value="-4.0 보다 낮아요." id="Button1"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="Choice(52, 0)" value="좋아요!" id="Button2"/>
+                    onclick="jbFunc8(); Choice(52, 0)" value="좋아요!" id="Button2"/>
         </div>
         <div id="choose9">
             <div class="subText">9/11</div>
@@ -162,10 +163,10 @@
             <br><br><br><br>
             </div>
             <input type="button" class="button" 
-                    onclick="Choice(32, 0)" value="난 눈썹부자!" id="Button1"/>
+                    onclick="jbFunc9(); Choice(32, 0)" value="난 눈썹부자!" id="Button1"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="Choice(30, 0)" value="눈썹 없는 것도 매력이지!!" id="Button2"/>
+                    onclick="jbFunc9(); Choice(30, 0)" value="눈썹 없는 것도 매력이지!!" id="Button2"/>
         </div> 
         <div id="choose10">
             <div class="subText">10/11</div>
@@ -179,10 +180,10 @@
             <br><br><br><br>
             </div>
             <input type="button" class="button" 
-                    onclick="Choice(44, 0)" value="눈썹에 갈매기가 날아다닌다~~" id="Button1"/>
+                    onclick="jbFunc10(); Choice(44, 0)" value="눈썹에 갈매기가 날아다닌다~~" id="Button1"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="Choice(41, 0)" value="눈썹에 갈매기가 없어요!" id="Button2"/>
+                    onclick="jbFunc10(); Choice(41, 0)" value="눈썹에 갈매기가 없어요!" id="Button2"/>
         </div>         
         <div id="choose11">
             <div class="subText">11/11</div>
@@ -196,13 +197,13 @@
             <br><br><br><br>
             </div>
             <input type="button" class="button" 
-                    onclick="Choice(106, 1)" value="학생" id="Button1"/>
+                    onclick="jbFunc11(); Choice(106, 1)" value="학생" id="Button1"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="Choice(106, 1)" value="직장인" id="Button2"/>
+                    onclick="jbFunc11(); Choice(106, 1)" value="직장인" id="Button2"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="Choice(107, 1)" value="기타 등등" id="Button2"/>
+                    onclick="jbFunc11(); Choice(107, 1)" value="기타 등등" id="Button2"/>
         </div>
     </body>
 </html>
