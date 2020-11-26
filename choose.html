@@ -2,209 +2,198 @@
     <head>
         <meta charset="utf-8">
         <title>선택~</title>
-        <!-- choose js 파일 수정하기 ex) jbFunc1(); -->
-        <script src="./js/choose1.js"></script>
-        <script src="js/result.js" src=""></script>
-        <link rel="stylesheet" href="./css/choose.css">
+        <link rel="stylesheet" type="text/css" href="css/choose.css">
+        <script src="js/choose.js"></script>
+        <script src="js/result.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
         <div id="choose1">
             <div class="subText">1/11</div>
             <div class="wrapper">
-                <progress value="1" max="11" id="jb"></progress>
+                <progress value="1" max="11" id="jb1"></progress>
             </div>
             <br><br><br>
             <div class="h1">
                 1. 앞머리는 나의?
             </div>
             <br><br><br><br>
-            </div>
             <input type="button" class="button" 
-                    onclick="jbFunc1(); replace1to2(); Choice(1, 0)" value="신체의 일부" id="Button1"/>
+                    onclick="jbFunc1(); Choice(1, 0);" value="신체의 일부"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="jbFunc1(); replace1to2(); Choice(0, 0)" value="앞머리 없는 게 짱이지" id="Button2"/>
+                    onclick="jbFunc1(); Choice(0, 0);" value="앞머리 없는 게 짱이지"/>
         </div>
-        <div id="choose2">
+        <div id="choose2" style="display: none;">
             <div class="subText">2/11</div>
             <div class="wrapper">
-                <progress value="2" max="11" id="jb"></progress> <!-- 진행도 1에서 시작 -->
+                <progress value="2" max="11" id="jb2"></progress> <!-- 진행도 1에서 시작 -->
             </div>
             <br><br><br>
             <div class="h1">
                 2. 나의 얼굴은?
             </div>
             <br><br><br><br>
-            </div>
             <input type="button" class="button" 
-                    onclick="jbFunc2(); replace2to3(); Choice(14, 0)" value="각진st" id="Button1"/>
+                    onclick="jbFunc2(); Choice(14, 0)" value="각진st"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="jbFunc2(); replace2to3(); Choice(12, 0)" value="동글동글 완두콩st" id="Button2"/>
+                    onclick="jbFunc2(); Choice(12, 0)" value="동글동글 완두콩st"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="jbFunc2(); replace2to3(); Choice(10, 0)" value="계란st" id="Button3"/>
+                    onclick="jbFunc2(); Choice(10, 0)" value="계란st"/>
         </div>      
-        <div id="choose3">
+        <div id="choose3" style="display: none;">
             <div class="subText">3/11</div>
             <div class="wrapper">
-                <progress value="3" max="11" id="jb"></progress>
+                <progress value="3" max="11" id="jb3"></progress>
             </div>
             <br><br><br>
             <div class="h1">
                 3. 나의 눈은?
             </div>
             <br><br><br><br>
-            </div>
-    
             <input type="button" class="button" 
-                    onclick="jbFunc3(); replace3to4(); Choice(27, 0)" value="큰편이지!" id="Button1"/>
+                    onclick="jbFunc3(); Choice(27, 0)" value="큰편이지!"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="jbFunc3(); replace3to4(); Choice(21, 0)"  value="음 보통인 것 같아" id="Button2"/>
+                    onclick="jbFunc3(); Choice(21, 0)"  value="음 보통인 것 같아"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="jbFunc3(); replace3to4(); Choice(24)"  value="조금 작은가??" id="Button2"/>
+                    onclick="jbFunc3(); Choice(24)"  value="조금 작은가??"/>
         </div>
-        <div id="choose4">
+        <div id="choose4" style="display: none;">
             <div class="subText">4/11</div>
             <div class="wrapper">
-                <progress value="4" max="11" id="jb"></progress>
+                <progress value="4" max="11" id="jb4"></progress>
             </div>
             <br><br><br>
             <div class="h1">
                 4. 주말에 뭐할까?
             </div>
             <br><br><br><br>
-            </div>
             <input type="button" class="button" 
-                    onclick="jbFunc4(); replace4to5(); Choice(61, 0)" value="당연히 친구 만나서 놀러가야지!" id="Button1"/>
+                    onclick="jbFunc4(); Choice(61, 0)" value="당연히 친구 만나서 놀러가야지!"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="jbFunc4(); replace4to5(); Choice(64, 0)" value="집이 최고! 집에서 넷플릭스 봐야지" id="Button2"/>
+                    onclick="jbFunc4(); Choice(64, 0)" value="집이 최고! 집에서 넷플릭스 봐야지"/>
         </div>
-        <div id="choose5">
+        <div id="choose5" style="display: none;">
             <div class="subText">5/11</div>
             <div class="wrapper">
-                <progress value="5" max="11" id="jb"></progress>
+                <progress value="5" max="11" id="jb5"></progress>
             </div>
             <br><br><br>
             <div class="h1">
                 5. 올해는 숏패딩이 유행이라던데 
             </div>
             <br><br><br><br>
-            </div>
             <input type="button" class="button" 
-                    onclick="jbFunc5(); replace5to6(); Choice(70, 0)" value="유행 신경 안 써." id="Button1"/>
+                    onclick="jbFunc5(); Choice(70, 0)" value="유행 신경 안 써."/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="jbFunc5(); replace5to6(); Choice(72, 0)" value="유행이니까 숏패딩 한번 입어볼까?" id="Button2"/>
+                    onclick="jbFunc5(); Choice(72, 0)" value="유행이니까 숏패딩 한번 입어볼까?"/>
         </div>
-        <div id="choose6">
+        <div id="choose6" style="display: none;">
             <div class="subText">6/11</div>
             <div class="wrapper">
-                <progress value="6" max="11" id="jb"></progress>
+                <progress value="6" max="11" id="jb6"></progress>
             </div>
             <br><br><br>
             <div class="h1">
                 6. 2가지 옷 중 한가지를 골라야 한다면 
             </div>
             <br><br><br><br>
-            </div>
     
             <input type="button" class="button" 
-                    onclick="jbFunc6(); replace6to7(); Choice(98, 0)" value="깔끔한 오피스룩" id="Button1"/>
+                    onclick="jbFunc6(); Choice(98, 0)" value="깔끔한 오피스룩"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="jbFunc6(); replace6to7(); Choice(99, 0)" value="올해 유행하는 뉴트로 패션 " id="Button2"/>
+                    onclick="jbFunc6(); Choice(99, 0)" value="올해 유행하는 뉴트로 패션"/>
         </div>
-        <div id="choose7">
+        <div id="choose7" style="display: none;">
             <div class="subText">7/11</div>
             <div class="wrapper">
-                <progress value="7" max="11" id="jb"></progress>
+                <progress value="7" max="11" id="jb7"></progress>
             </div>
             <br><br><br>
             <div class="h1">
                 7. 자고 일어났는데 안경을 잃어버렸다!!
             </div>
             <br><br><br><br>
-            </div>
             <input type="button" class="button" 
-                    onclick="jbFunc7(); replace7to8(); Choice(84, 0)" value="안경 없어도 일상생활 가능해" id="Button1"/>
+                    onclick="jbFunc7(); Choice(84, 0)" value="안경 없어도 일상생활 가능해"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="jbFunc7(); replace7to8(); Choice(81, 0)" value="안경 없으면 아무것도 안 보여" id="Button2"/>
+                    onclick="jbFunc7(); Choice(81, 0)" value="안경 없으면 아무것도 안 보여"/>
         </div>
-        <div id="choose8">
+        <div id="choose8" style="display: none;">
             <div class="subText">8/11</div>
             <div class="wrapper">
-                <progress value="8" max="11" id="jb"></progress>
+                <progress value="8" max="11" id="jb8"></progress>
             </div>
             <br><br><br>
             <div class="h1">
                 8. 나는 시력이?
             </div>
             <br><br><br><br>
-            </div>
             <input type="button" class="button" 
-                    onclick="jbFunc8(); replace8to9(); Choice(50, 0)" value="-4.0 보다 낮아요." id="Button1"/>
+                    onclick="jbFunc8(); Choice(50, 0)" value="-4.0 보다 낮아요."/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="jbFunc8(); replace8to9(); Choice(52, 0)" value="좋아요!" id="Button2"/>
+                    onclick="jbFunc8(); Choice(52, 0)" value="좋아요!"/>
         </div>
-        <div id="choose9">
+        <div id="choose9" style="display: none;">
             <div class="subText">9/11</div>
             <div class="wrapper">
-                <progress value="9" max="11" id="jb"></progress>
+                <progress value="9" max="11" id="jb9"></progress>
             </div>
             <br><br><br>
             <div class="h1">
             9. 눈썹이 많은가요? 적은가요?
             </div>
             <br><br><br><br>
-            </div>
             <input type="button" class="button" 
-                    onclick="jbFunc9(); replace9to10(); Choice(32, 0)" value="난 눈썹부자!" id="Button1"/>
+                    onclick="jbFunc9(); Choice(32, 0)" value="난 눈썹부자!"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="jbFunc9(); replace9to10(); Choice(30, 0)" value="눈썹 없는 것도 매력이지!!" id="Button2"/>
+                    onclick="jbFunc9(); Choice(30, 0)" value="눈썹 없는 것도 매력이지!!"/>
         </div> 
-        <div id="choose10">
+        <div id="choose10" style="display: none;">
             <div class="subText">10/11</div>
             <div class="wrapper">
-                <progress value="10" max="11" id="jb"></progress>
+                <progress value="10" max="11" id="jb10"></progress>
             </div>
             <br><br><br>
             <div class="h1">
                 10. 눈썹 산이 있으신가요?
             </div>
             <br><br><br><br>
-            </div>
+            
             <input type="button" class="button" 
-                    onclick="jbFunc10(); replace10to11(); Choice(44, 0)" value="눈썹에 갈매기가 날아다닌다~~" id="Button1"/>
+                    onclick="jbFunc10(); Choice(44, 0)" value="눈썹에 갈매기가 날아다닌다~~"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="jbFunc10(); replace10to11(); Choice(41, 0)" value="눈썹에 갈매기가 없어요!" id="Button2"/>
-        </div>         
-        <div id="choose11">
+                    onclick="jbFunc10(); Choice(41, 0)" value="눈썹에 갈매기가 없어요!"/>
+        </div>  
+        <div id="choose11" style="display: none;">
             <div class="subText">11/11</div>
             <div class="wrapper">
-                <progress value="11" max="11" id="jb"></progress>
+                <progress value="11" max="11" id="jb11"></progress>
             </div>
             <br><br><br>
             <div class="h1">
                 11. 당신의 직업은???
             </div>
             <br><br><br><br>
-            </div>
             <input type="button" class="button" 
-                    onclick="jbFunc11(); Choice(106, 1)" value="학생" id="Button1"/>
+                    onclick="Choice(106, 1)" value="학생"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="jbFunc11(); Choice(106, 1)" value="직장인" id="Button2"/>
+                    onclick="Choice(106, 1)" value="직장인"/>
             <br><br><br>
             <input type="button" class="button" 
-                    onclick="jbFunc11(); Choice(107, 1)" value="기타 등등" id="Button2"/>
+                    onclick="Choice(107, 1)" value="기타 등등"/>
         </div>
     </body>
 </html>
