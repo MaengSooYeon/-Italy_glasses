@@ -1,7 +1,7 @@
-<h1>Italy_glasses<h1>  
+<h1>ITALY GLASSES 🕶</h1>  
   
 ✨별빛 신사리 공모전 안경 mbti✨   
-  
+
 📌 <b>2020년 별빛 신사리 공모전 출품작입니다.</b>
  
 
@@ -10,6 +10,7 @@
 
 <h2>PLAY</h2>  
 https://seoeunpark.github.io/-Italy_glasses/
+
 
 <h2>Information</h2>  
 
