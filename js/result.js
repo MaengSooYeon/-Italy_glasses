@@ -1,7 +1,8 @@
-var result=0;
+// var result=0;
+var result="";
 var end=0;
 function again() {
-    location.href="start.html"
+    location.href="index.html"
 }
 
 function another() {
@@ -23,24 +24,26 @@ function initMap() {
 }
 
 function Choice(n, end){
-    result+=n;
-    
-    if((result==571||result==575)&&end==1){
-        location.href='result1.html';
+
+    result += n;
+
+    if((result == "0142461709881503041106" || result == "0102461709881503041106") && end==1) {
+        location.href="result1.html";
     }
-    if((result==577||result==579)&&end==1){
-        location.href='result2.html';
+    if((result == "1102164709881523241107" || result == "1122164709881523241107") && end==1) {
+        location.href="result2.html";
     }
-    if((result==576||result==580)&&end==1){
-        location.href='result3.html';
+    if((result == "0102461729881503044106" || result == "0142461729881503044106") && end==1) {
+        location.href="result3.html";
     }
-    if((result==581||result==585||result==587||result==591)&&end==1){
-        location.href='result5.html';
+    if((result == "1142764729881523244106" || result == "1142164729881523244106" || result == "1102764729881523244106" || result == "1102164729881523244106") && end==1) {
+        location.href="result5.html";
     }
-    if(((result==580)+8||result==584)&&end==1){
-        location.href='result6.html';
+    if((result == "1142764709881523041106" || result == "1102764709881523041106") && end==1) {
+        location.href="result6.html";
     }
-    if(((result==587)+20||result==589||result==590||result==592||result==593||result==595)&&end==1){
-        location.href='result9.html';
+    if((result == "0122161729984503241107" || result == "0122461729984503241107" || result == "0122761729984503241107" || result == "0102161729984503241107" || result == "0102461729984503241107" || result == "0102761729984503241107") && end==1) {
+        location.href="result9.html";
     }
+
 }
